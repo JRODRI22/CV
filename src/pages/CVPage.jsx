@@ -431,14 +431,7 @@ function CVNav({ ready }) {
           >
             ↓ CV
           </a>
-          <a href="/"
-            className="font-mono text-[10px] uppercase tracking-[0.18em] transition-colors duration-200 px-2 py-1.5"
-            style={{ color: 'rgba(241,245,249,0.4)' }}
-            onMouseEnter={e => (e.currentTarget.style.color = 'rgba(241,245,249,0.8)')}
-            onMouseLeave={e => (e.currentTarget.style.color = 'rgba(241,245,249,0.4)')}
-          >
-            ← Portfolio
-          </a>
+
         </div>
       </div>
 
@@ -1064,12 +1057,6 @@ function CVContact() {
             <span>{CV.loc}</span>
             <span className="hidden sm:block">·</span>
             <span>{CV.phone}</span>
-            <span className="hidden sm:block">·</span>
-            <a href="/" className="transition-colors duration-300"
-              onMouseEnter={e => (e.currentTarget.style.color = 'rgba(240,244,255,0.6)')}
-              onMouseLeave={e => (e.currentTarget.style.color = 'rgba(240,244,255,0.25)')}>
-              ← Volver al portfolio
-            </a>
           </div>
         </motion.div>
       </div>
